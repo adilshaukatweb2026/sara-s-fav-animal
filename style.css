@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    color: #444;
+    font-family: Arial, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    background-color: lightgreen;
+}
+nav a {
+    flex: 1;
+    text-align: center;
+    color: lightcyan;
+    text-decoration: none;
+    padding: 5px;
+}
+img {
+    float: left;
+    width: 200px;
+    margin: 0 15px 10px 0;
+}
+h2 {
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+ul, ol {
+    line-height: 2;
+}
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+}
